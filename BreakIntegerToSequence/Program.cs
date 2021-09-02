@@ -17,7 +17,7 @@ namespace BreakIntegerToSequence
 
             foreach (var item in sequenceOfNumbers)
             {
-                Console.Write($"{item} ");
+                Console.Write($"{item}  ");
             }
         }
     }

@@ -14,7 +14,7 @@ namespace FahrenheitToCelsius
         {
             double output;
             output = (input-32)*5/9;
-            Console.WriteLine($"{input:f1} degree Fahrenheit is equal to {output:f1} in Celsius");
+            Console.WriteLine($"{input:f1} degree Fahrenheit is equal to {output:f1} in Celsius ");
         }
     }
 }

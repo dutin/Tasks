@@ -18,7 +18,7 @@ namespace MinutesToYearsAndDays
             years = (int)((input / 1440) / 365);
             days = (int)((input / 1440) % 365);
 
-            Console.WriteLine($"{input} minutes is aproximately {years} years and {days} days.");
+            Console.WriteLine($"{input} minutes is aproximately {years} years and {days} days. ");
         }
     }
 }

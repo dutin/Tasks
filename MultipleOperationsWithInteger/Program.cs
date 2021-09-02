@@ -31,7 +31,7 @@ namespace MultipleOperationsWithInteger
 
         private static void GetMax(int intOne, int intTwo)
         {
-            Console.WriteLine($"Max integer: {Math.Max(intOne, intTwo)}");
+            Console.WriteLine($"Max integer: {Math.Max(intOne, intTwo)} ");
         }
 
         private static void GetDistance(int intOne, int intTwo)

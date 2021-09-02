@@ -19,7 +19,7 @@ namespace SumOfIntegersDigits
                 sum += (n % 10); //this will give me the last digit
                 n /= 10;//this will remove the last digit from the picture
             }
-            Console.WriteLine($"The sum of all digits in {number} is {sum}");
+            Console.WriteLine($"The sum of all digits in {number} is {sum} ");
         }
     }
 }

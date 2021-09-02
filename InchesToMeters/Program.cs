@@ -14,7 +14,7 @@ namespace InchesToMeters
         {
             double output;
             output = input/39.37;
-            Console.WriteLine($"{input:f1} inch is {output:f1} meter");
+            Console.WriteLine($"{input:f1} inch is {output:f1} meter ");
         }
     }
 }
