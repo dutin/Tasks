@@ -4,7 +4,7 @@ namespace BreakIntegerToSequence
 {
     class BreakIntegerToSequence_v1
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Console.WriteLine("Enter a integer to preview it as a sequence of it's digits");
             string numbers = (Console.ReadLine());
