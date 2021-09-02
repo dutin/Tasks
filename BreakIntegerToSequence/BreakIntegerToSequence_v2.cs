@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace BreakIntegerToSequence_V2
 {
-    class Program
+    class BreakIntegerToSequence_v2
     {
         static void Main(string[] args)
         {

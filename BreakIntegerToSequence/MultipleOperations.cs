@@ -3,13 +3,15 @@ using System.Linq;
 
 namespace MultipleOperationsWithInteger
 {
-    class Program
+    class MultipleOperations
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Enter a integer");
             int intOne = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter another integer");
             int intTwo = int.Parse(Console.ReadLine());
-
+            Console.WriteLine("Behold! The extremely complex arithmetic procedures are in progress...");
             GetAllOperations(intOne, intTwo);
         }
 
