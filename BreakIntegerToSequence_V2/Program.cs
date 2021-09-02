@@ -7,13 +7,11 @@ namespace BreakIntegerToSequence_V2
     {
         static void Main(string[] args)
         {
-            //Enter a integer to preview it as a sequence of it's digits
-
             int number = int.Parse(Console.ReadLine());
-           // string[] sequenceReversed = new string[number.ToString().Length];
-            string[] sequence = new string[number.ToString().Length];
+            string[] sequenceReversed = new string[number.ToString().Length];
+            string[] sequence = new string[sequenceReversed.Length];
 
-            for (int i = 0; i < sequence.Length; i++)
+            for (int i = 0; i < sequenceReversed.Length; i++)
             {
                 string current = (number % 10).ToString();
                 number /= 10;
