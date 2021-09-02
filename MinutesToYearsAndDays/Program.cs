@@ -6,6 +6,7 @@ namespace MinutesToYearsAndDays
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Enter a number that represent fraction of time in minutes");
             int input = int.Parse(Console.ReadLine());
             GetYearsAndDays(input);
         }
@@ -17,7 +18,7 @@ namespace MinutesToYearsAndDays
 
             years = (int)((input / 1440) / 365);
             days = (int)((input / 1440) % 365);
-
+            Console.WriteLine("Calculating...");
             Console.WriteLine($"{input} minutes is aproximately {years} years and {days} days. ");
         }
     }

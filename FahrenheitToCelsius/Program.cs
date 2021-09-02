@@ -6,6 +6,8 @@ namespace FahrenheitToCelsius
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Enter a temperature in Fahrenheit");
+
             double input = double.Parse(Console.ReadLine());
             GetCelsius(input);
         }

@@ -6,7 +6,9 @@ namespace SumOfIntegersDigits
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Enter an integer between 0 and 1000");
             int input = int.Parse(Console.ReadLine());
+            Console.WriteLine("Calculating...");
             GetSum(input);
         }
 

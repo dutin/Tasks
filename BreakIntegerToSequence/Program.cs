@@ -6,7 +6,7 @@ namespace BreakIntegerToSequence
     {
         static void Main(string[] args)
         {
-            //Enter a integer to preview it as a sequence of it's digits
+            Console.WriteLine("Enter a integer to preview it as a sequence of it's digits");
             string numbers = (Console.ReadLine());
 
             int[] sequenceOfNumbers = new int[numbers.Length];
