@@ -15,7 +15,7 @@ namespace CalculatorBMI
 
         private static void GetBMI(double weight, double height)
         {
-            double BodyMassIndex = weight/Math.Pow(height,2)*703;
+            decimal BodyMassIndex = (decimal)(weight/Math.Pow(height,2)*703);
             Console.WriteLine($"BodyMassIndex is {BodyMassIndex} ");
         }
     }
