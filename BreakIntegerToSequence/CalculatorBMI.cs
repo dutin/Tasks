@@ -2,7 +2,7 @@
 
 namespace CalculatorBMI
 {
-    class Program
+    class CalculatorBMI
     {
         static void Main(string[] args)
         {

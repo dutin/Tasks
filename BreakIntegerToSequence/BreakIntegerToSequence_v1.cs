@@ -2,7 +2,7 @@
 
 namespace BreakIntegerToSequence
 {
-    class Program
+    class BreakIntegerToSequence_v1
     {
         static void Main(string[] args)
         {

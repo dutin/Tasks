@@ -2,7 +2,7 @@
 
 namespace MinutesToYearsAndDays
 {
-    class Program
+    class MinutesToYearsAndDays
     {
         static void Main(string[] args)
         {

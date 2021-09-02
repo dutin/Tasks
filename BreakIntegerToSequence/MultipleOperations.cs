@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace MultipleOperationsWithInteger
 {
-    class Program
+    class MultipleOperations
     {
         static void Main(string[] args)
         {

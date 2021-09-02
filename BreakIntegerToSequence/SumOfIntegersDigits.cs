@@ -2,7 +2,7 @@
 
 namespace SumOfIntegersDigits
 {
-    class Program
+    class SumOfIntegersDigits
     {
         static void Main(string[] args)
         {

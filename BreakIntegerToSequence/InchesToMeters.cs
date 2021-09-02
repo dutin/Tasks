@@ -2,7 +2,7 @@
 
 namespace InchesToMeters
 {
-    class Program
+    class InchesToMeters
     {
         static void Main(string[] args)
         {

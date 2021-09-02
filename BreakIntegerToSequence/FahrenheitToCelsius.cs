@@ -2,7 +2,7 @@
 
 namespace FahrenheitToCelsius
 {
-    class Program
+    class FahrenheitToCelsius
     {
         static void Main(string[] args)
         {
