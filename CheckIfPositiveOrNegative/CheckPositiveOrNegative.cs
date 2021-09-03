@@ -6,10 +6,17 @@ namespace CheckIfPositiveOrNegative
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter a integer to find if its Positive or Negative");
+            GetTaskInstructions();
             int number = int.Parse(Console.ReadLine());
 
             IsPositiveOrNegative(number);
+        }
+
+        private static void GetTaskInstructions()
+        {
+            Console.WriteLine("TASK: Write a C# program to get a number from the user and print whether it is positive or negative.");
+            Console.WriteLine();
+            Console.WriteLine("Enter a integer to find if its Positive or Negative");
         }
 
         private static void IsPositiveOrNegative(int number)

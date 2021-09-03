@@ -3,21 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOfIntegersDigits_v2", "BreakIntegerToSequence\SumOfIntegersDigits_v2.csproj", "{612F6DCD-A793-483D-BF07-1C1B5E3F5F14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A_1_SumOfIntegersDigits_v2", "BreakIntegerToSequence\A_1_SumOfIntegersDigits_v2.csproj", "{612F6DCD-A793-483D-BF07-1C1B5E3F5F14}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckPositiveOrNegative", "CheckIfPositiveOrNegative\CheckPositiveOrNegative.csproj", "{3E43BA5E-25B8-428D-A8DF-5978AA7D1066}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A_2_CheckPositiveOrNegative", "CheckIfPositiveOrNegative\A_2_CheckPositiveOrNegative.csproj", "{3E43BA5E-25B8-428D-A8DF-5978AA7D1066}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakIntegerToSequence_v1", "BreakIntegerToSequence_v1\BreakIntegerToSequence_v1.csproj", "{4829815B-FF2A-42D9-95B5-B1B34E5D1E01}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_1_BreakIntegerToSequence_v1", "BreakIntegerToSequence_v1\A_1_BreakIntegerToSequence_v1.csproj", "{4829815B-FF2A-42D9-95B5-B1B34E5D1E01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorBMI_v2", "CalculatorBMI_v2\CalculatorBMI_v2.csproj", "{2ABF87C0-76AE-4829-8566-831EF6592648}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_1_CalculatorBMI_v2", "CalculatorBMI_v2\A_1_CalculatorBMI_v2.csproj", "{2ABF87C0-76AE-4829-8566-831EF6592648}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FahrenheitToCelsius_v2", "FahrenheitToCelsius_v2\FahrenheitToCelsius_v2.csproj", "{868FDC71-6D51-45C7-8824-9B4EFE527AD4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_1_FahrenheitToCelsius_v2", "FahrenheitToCelsius_v2\A_1_FahrenheitToCelsius_v2.csproj", "{868FDC71-6D51-45C7-8824-9B4EFE527AD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InchesToMeters_v2", "InchesToMeters_v2\InchesToMeters_v2.csproj", "{D4A9DFBD-9ED8-4FCB-A71D-2336EFC346BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_1_InchesToMeters_v2", "InchesToMeters_v2\A_1_InchesToMeters_v2.csproj", "{D4A9DFBD-9ED8-4FCB-A71D-2336EFC346BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleOperations_v2", "MultipleOperations_v2\MultipleOperations_v2.csproj", "{D2C47ED1-ADC8-4DF9-A2A5-04A95AB4A5C3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_1_MultipleOperations_v2", "MultipleOperations_v2\A_1_MultipleOperations_v2.csproj", "{D2C47ED1-ADC8-4DF9-A2A5-04A95AB4A5C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinutesToYearsAndDays_v2", "MinutesToYearsAndDays_v2\MinutesToYearsAndDays_v2.csproj", "{D6077D0D-0600-4D79-9715-CDFD956594D2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_1_MinutesToYearsAndDays_v2", "MinutesToYearsAndDays_v2\A_1_MinutesToYearsAndDays_v2.csproj", "{D6077D0D-0600-4D79-9715-CDFD956594D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_2_GreatestNumber", "GreatestNumber\A_2_GreatestNumber.csproj", "{058FFF67-1C58-4410-BF6A-8E07267C0AFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_2_FloatinZeroPositiveOrNegative", "FloatinZeroPositiveOrNegative\A_2_FloatinZeroPositiveOrNegative.csproj", "{29708DE8-91DC-4394-8053-BA13BE329614}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeekDayOrWeekend", "WeekDayOrWeekend\WeekDayOrWeekend.csproj", "{E01CADBD-0847-4805-8FAD-DBC6FC40AF62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +63,18 @@ Global
 		{D6077D0D-0600-4D79-9715-CDFD956594D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6077D0D-0600-4D79-9715-CDFD956594D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6077D0D-0600-4D79-9715-CDFD956594D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{058FFF67-1C58-4410-BF6A-8E07267C0AFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{058FFF67-1C58-4410-BF6A-8E07267C0AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{058FFF67-1C58-4410-BF6A-8E07267C0AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{058FFF67-1C58-4410-BF6A-8E07267C0AFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29708DE8-91DC-4394-8053-BA13BE329614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29708DE8-91DC-4394-8053-BA13BE329614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29708DE8-91DC-4394-8053-BA13BE329614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29708DE8-91DC-4394-8053-BA13BE329614}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E01CADBD-0847-4805-8FAD-DBC6FC40AF62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E01CADBD-0847-4805-8FAD-DBC6FC40AF62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E01CADBD-0847-4805-8FAD-DBC6FC40AF62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E01CADBD-0847-4805-8FAD-DBC6FC40AF62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
