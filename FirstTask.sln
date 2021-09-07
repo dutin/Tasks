@@ -23,7 +23,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_2_GreatestNumber", "Great
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_2_FloatinZeroPositiveOrNegative", "FloatinZeroPositiveOrNegative\A_2_FloatinZeroPositiveOrNegative.csproj", "{29708DE8-91DC-4394-8053-BA13BE329614}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeekDayOrWeekend", "WeekDayOrWeekend\WeekDayOrWeekend.csproj", "{E01CADBD-0847-4805-8FAD-DBC6FC40AF62}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_2_WeekDayOrWeekend", "WeekDayOrWeekend\A_2_WeekDayOrWeekend.csproj", "{E01CADBD-0847-4805-8FAD-DBC6FC40AF62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_2_WhileLoopTasks1to4", "WhileLoopTasks1to4\A_2_WhileLoopTasks1to4.csproj", "{5C1FFE06-84C6-4D8F-95AD-F4FE6E5527D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{E01CADBD-0847-4805-8FAD-DBC6FC40AF62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E01CADBD-0847-4805-8FAD-DBC6FC40AF62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E01CADBD-0847-4805-8FAD-DBC6FC40AF62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C1FFE06-84C6-4D8F-95AD-F4FE6E5527D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C1FFE06-84C6-4D8F-95AD-F4FE6E5527D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C1FFE06-84C6-4D8F-95AD-F4FE6E5527D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C1FFE06-84C6-4D8F-95AD-F4FE6E5527D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
