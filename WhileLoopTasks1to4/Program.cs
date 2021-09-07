@@ -43,9 +43,9 @@ namespace WhileLoopTasks1to4
             int counter = 0;
             while (counter++<=4)
             {
-                for (int i = 0; i < counter; i++)
+                for (int i = 1; i <= counter; i++)
                 {
-                    Console.Write($"{counter} ");
+                    Console.Write($"{i} ");
 
                 }
                 Console.WriteLine();
