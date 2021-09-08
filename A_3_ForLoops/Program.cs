@@ -106,7 +106,7 @@ namespace A_3_ForLoops
         private static void printTriangleAscendingNums(int triangleSize)
         {
             int currentnum = 1;
-            for (int i = 1; i < triangleSize; i++)
+            for (int i = 1; i <= triangleSize; i++)
             {
                 for (int y = 1; y <= i; y++)
                 {
