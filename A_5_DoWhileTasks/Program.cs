@@ -32,9 +32,9 @@ namespace A_5_DoWhileTasks
                     Console.WriteLine($"{n1} {n2}");
                     break;
 
-                case 3:
+               /* case 3:
                     Console.WriteLine($"{n1} {n2} {n1 + n2}");
-                    break;
+                    break;*/
 
                 default:
                     Console.Write($"{n1} {n2} ");
