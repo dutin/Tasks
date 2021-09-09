@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_4_ForLoops", "A_3_ForLoop
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_5_DoWhileTasks", "A_5_DoWhileTasks\A_5_DoWhileTasks.csproj", "{FE394903-C489-484E-8286-D416708107FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_6_StringAssinment", "A_6_StringAssinment\A_6_StringAssinment.csproj", "{66BD0715-836B-45CB-9A07-4499E0ABEAB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{FE394903-C489-484E-8286-D416708107FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE394903-C489-484E-8286-D416708107FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE394903-C489-484E-8286-D416708107FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66BD0715-836B-45CB-9A07-4499E0ABEAB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66BD0715-836B-45CB-9A07-4499E0ABEAB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66BD0715-836B-45CB-9A07-4499E0ABEAB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66BD0715-836B-45CB-9A07-4499E0ABEAB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
