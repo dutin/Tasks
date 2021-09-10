@@ -7,12 +7,41 @@ namespace A_7_ArraysTasks
     {
         static void Main(string[] args)
         {
+            BubleSort();
             SortMyArray_V1();
             SortMyArray_V2();
             SumMyArrayValues();
             TestIfValueExist();
             ReverseMyArray();
             
+        }
+
+        private static void BubleSort()
+        {
+            Console.WriteLine("The following program will capture user input for array and sort it in Ascending order");
+            Console.WriteLine("Enter a list of integers separated with white space - example: 1 5 3 7");
+            int[] arrayOfIntegers = CapturedUserInput().OrderBy(a => a).ToArray();
+
+            int temp;
+
+            for (int i = 0; i < arrayOfIntegers.Length-1; i++)
+            {
+
+                for (int j = 0; j < arrayOfIntegers.Length-1; j++)
+                {
+                    if (arrayOfIntegers[i] > arrayOfIntegers[i+1])
+                    {
+                        temp = arrayOfIntegers[i + 1];
+                        arrayOfIntegers[i + 1] = arrayOfIntegers[i];
+                        arrayOfIntegers[i] = temp;
+                    }
+                }
+            }
+
+            foreach (var item in arrayOfIntegers)
+            {
+                Console.Write($"{item} ");
+            }
         }
 
         private static void TestIfValueExist()
