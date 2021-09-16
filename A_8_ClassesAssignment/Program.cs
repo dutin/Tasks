@@ -9,6 +9,7 @@ namespace A_8_ClassesAssignment
             //For visualisation of the task i will create two University objects with default value for its members
             University uniSofia = new University();
             University uniPlovdiv = new University();
+            
             /*Only for training purposes i am accessing the static member of the class University,
             so i can change the status of the student year*/
             University.startingOftheStudentYear = true;

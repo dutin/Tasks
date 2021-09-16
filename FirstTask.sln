@@ -37,6 +37,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A_7_ArraysTasks", "A_7_Arra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_8_ClassesAssignment", "A_8_ClassesAssignment\A_8_ClassesAssignment.csproj", "{0380E344-E32A-4BCC-857F-F86967D3B6AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_8_v2_ClassesAssignment", "A_8_v2_ClassesAssignment\A_8_v2_ClassesAssignment.csproj", "{F89F78D3-A2DB-4235-BB2B-5060608DD6E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_9_InheritanceTask", "A_9_InheritanceTask\A_9_InheritanceTask.csproj", "{818E37CC-B3DB-4ABC-81B8-424896899678}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +115,14 @@ Global
 		{0380E344-E32A-4BCC-857F-F86967D3B6AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0380E344-E32A-4BCC-857F-F86967D3B6AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0380E344-E32A-4BCC-857F-F86967D3B6AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F89F78D3-A2DB-4235-BB2B-5060608DD6E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F89F78D3-A2DB-4235-BB2B-5060608DD6E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F89F78D3-A2DB-4235-BB2B-5060608DD6E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F89F78D3-A2DB-4235-BB2B-5060608DD6E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{818E37CC-B3DB-4ABC-81B8-424896899678}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{818E37CC-B3DB-4ABC-81B8-424896899678}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{818E37CC-B3DB-4ABC-81B8-424896899678}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{818E37CC-B3DB-4ABC-81B8-424896899678}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
