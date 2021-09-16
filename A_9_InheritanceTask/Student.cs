@@ -6,6 +6,6 @@ namespace A_9_InheritanceTask
 {
     class Student
     {
-        public bool attendance;
+        public bool Attendance { get; set; }
     }
 }
