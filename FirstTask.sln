@@ -35,11 +35,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A_6_StringAssinment", "A_6_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A_7_ArraysTasks", "A_7_ArraysTasks\A_7_ArraysTasks.csproj", "{4BC3A302-E2A4-49AE-BC53-42F59EBE8DF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_8_ClassesAssignment", "A_8_ClassesAssignment\A_8_ClassesAssignment.csproj", "{0380E344-E32A-4BCC-857F-F86967D3B6AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A_8_ClassesAssignment", "A_8_ClassesAssignment\A_8_ClassesAssignment.csproj", "{0380E344-E32A-4BCC-857F-F86967D3B6AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_8_v2_ClassesAssignment", "A_8_v2_ClassesAssignment\A_8_v2_ClassesAssignment.csproj", "{F89F78D3-A2DB-4235-BB2B-5060608DD6E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A_8_v2_ClassesAssignment", "A_8_v2_ClassesAssignment\A_8_v2_ClassesAssignment.csproj", "{F89F78D3-A2DB-4235-BB2B-5060608DD6E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_9_InheritanceTask", "A_9_InheritanceTask\A_9_InheritanceTask.csproj", "{818E37CC-B3DB-4ABC-81B8-424896899678}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A_9.0_InheritanceTask", "A_9_InheritanceTask\A_9.0_InheritanceTask.csproj", "{818E37CC-B3DB-4ABC-81B8-424896899678}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

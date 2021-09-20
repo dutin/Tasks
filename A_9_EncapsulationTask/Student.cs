@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace A_9_InheritanceTask
+namespace A_9_EncapsulationTask
 {
     class Student
     {
         private bool attendance;
 
-        protected internal bool Attendance
+        private bool Attendance
         {
             get { return attendance; }
             set { attendance = value; }

@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace A_9_InheritanceTask
+namespace A_9_EncapsulationTask
 {
-    class Mathematician : Student
+    class Mathematician
     {
-        private string certification;
-        public string Certification 
+        string certification;
+        new string Certification
         {
             get { return certification; }
             set
@@ -23,6 +23,9 @@ namespace A_9_InheritanceTask
             }
         }
 
-
+        public Mathematician(string certificate)
+        {
+            Certification = certificate;
+        }
     }
 }
