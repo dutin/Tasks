@@ -7,6 +7,7 @@ namespace A_9_InheritanceTask
     class Mathematician : Student
     {
         private string certification;
+        private bool certificationConfirmation;
         public string Certification 
         {
             get { return certification; }
@@ -22,6 +23,16 @@ namespace A_9_InheritanceTask
                 }
             }
         }
+
+        public override void takeExam()
+        {
+            certificationConfirmation = true;
+            Console.WriteLine("Exam is passed");
+        }
+
+        
+
+
 
 
     }

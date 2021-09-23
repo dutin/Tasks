@@ -6,10 +6,7 @@ namespace A_9_InheritanceTask
     {
         static void Main(string[] args)
         {
-            /* Bellow i have created two students who have different specialties, 
-             * and using the inherited public member attendance from the class 
-             * Student - and i have added their attendance result*/
-
+            
             Athlete athlete = new Athlete();
             athlete.Attendance = true;
 
@@ -17,7 +14,9 @@ namespace A_9_InheritanceTask
             mathematician.Certification = "Footbal";
             mathematician.Attendance = true;
 
-            //here i am adding a certificate which is not related to the student's education to test the condition in the setter
+            //Here im applying the overloaded takeExam() function
+            mathematician.takeExam(mathematician.Attendance);
+
             mathematician.Certification = "Football";
 
             Console.WriteLine("Test - using non-related certification:");
@@ -29,8 +28,9 @@ namespace A_9_InheritanceTask
             Console.WriteLine($"Matematician's certificate: {mathematician.Certification}");
             Console.WriteLine();
 
+            mathematician.takeExam();
 
-            /* NOTE: Following logic is only for visualisation purposes */
+
             if (athlete.Attendance == true && mathematician.Attendance == true)
             {
                 Console.WriteLine("All Students have positive attendance");
