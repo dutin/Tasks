@@ -5,15 +5,18 @@ using System.Text;
 namespace A_9._3_Polymorphism
 {
 
-    //declaring the class Student as abstract so it's virtual methods can be overrided
-    abstract class Student
+   //class Student is no longer abstract as it is not needed to be for its methods to be overrided
+    class Student
     {
         internal bool Attendance { get; set; }
         internal string name;
         internal int fNumber;
 
-        //the method takeExam() is now abstract so it can be overrided from child classes
-        public abstract void takeExam();
+        //method takeExam() is now virtual to be overriden by the child classes
+        public virtual void takeExam()
+        {
+            Console.WriteLine("Taking exam");
+        }
 
         //bellow is the overloaded takeExam function
         public void takeExam(bool attendance)
