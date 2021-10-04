@@ -37,7 +37,7 @@ namespace A_7_ArraysTasks
                     }
                 }
             }
-
+            //TestComment:Ignore me
             foreach (var item in arrayOfIntegers)
             {
                 Console.Write($"{item} ");
